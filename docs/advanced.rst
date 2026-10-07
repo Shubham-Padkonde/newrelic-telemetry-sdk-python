@@ -53,7 +53,9 @@ use the same wire format as the telemetry items being sent, with all fields
 optional. It is not a flat dictionary of tags: put shared tags inside the
 ``attributes`` key.
 
-For example, spans can share a trace ID and service name::
+For example, spans can share a trace ID and service name:
+
+.. code-block:: python
 
     import os
     from newrelic_telemetry_sdk import SpanClient
